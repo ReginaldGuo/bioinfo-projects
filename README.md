@@ -1,4 +1,4 @@
 # bioinfo-projects
-various bioinformatics workflows.
+Various bioinformatics workflows.
 
-demo version.
+Demo version.
