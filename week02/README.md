@@ -4,22 +4,22 @@ Apteryx owenii (Little Spotted kiwi)
 Small flightless bird in the kiwi family
 
 ## 2 
-Command:
-micromamba activate bioinfo
-cd ~/edu/bioinfo-projects/week02
-wget https://ftp.ensembl.org/pub/current_gff3/apteryx_owenii/Apteryx_owenii.aptOwe1.116.gff3.gz
-ls
-Output: 
+**Command:**
+```micromamba activate bioinfo```
+```cd ~/edu/bioinfo-projects/week02```
+```wget https://ftp.ensembl.org/pub/current_gff3/apteryx_owenii/Apteryx_owenii.aptOwe1.116.gff3.gz```
+```ls```
+**Output:** 
 Apteryx_owenii.aptOwe1.116.gff3.gz
 
-Command: 
-gunzip Apteryx_owenii.aptOwe1.116.gff3.gz
-ls
-Output:
+**Command:**
+```gunzip Apteryx_owenii.aptOwe1.116.gff3.gz```
+```ls```
+**Output:**
 Apteryx_owenii.aptOwe1.116.gff3
 
-Command:
-cat Apteryx_owenii.aptOwe1.116.gff3 | head   
+**Command:**
+```cat Apteryx_owenii.aptOwe1.116.gff3 | head```   
 Output:
 ##gff-version 3
 ##sequence-region   PTFC01000001.1 1 17302385
@@ -33,9 +33,9 @@ Output:
 ##sequence-region   PTFC01000009.1 1 6795204
 (bioinfo) 
 
-Command: 
-cat Apteryx_owenii.aptOwe1.116.gff3 | grep '^##sequence-region' | wc -l
-Output: 
+**Command:**
+```cat Apteryx_owenii.aptOwe1.116.gff3 | grep '^##sequence-region' | wc -l```
+**Output:**
 5096
 Explanation:
 5096 sequence regions do not equal to 5096 complete chromosomes. The genome assembly contains many scaffolds.
